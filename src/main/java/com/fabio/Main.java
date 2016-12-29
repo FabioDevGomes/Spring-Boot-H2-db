@@ -14,7 +14,7 @@ public class Main {
 		detail.setProductId("AAA");
 		detail.setProductName("O livro de Dan sobre escrita");
 		detail.setShortDescription("Um livro sobre escrever livros");
-		detail.setLongDescription("Neste livro Dan apresenta ao leitor...");
+		detail.setLongDescription("Primerio - Neste livro Dan apresenta ao leitor...");
 		detail.setInventoryId("12345");
 		ProductDetailRepository repository = ctx.getBean(ProductDetailRepository.class);
 		repository.save(detail);
@@ -23,7 +23,7 @@ public class Main {
 		detail2.setProductId("BBB");
 		detail2.setProductName("O livro de Dan sobre escrita");
 		detail2.setShortDescription("Um livro sobre escrever livros");
-		detail2.setLongDescription("Neste livro Dan apresenta ao leitor...");
+		detail2.setLongDescription("Segundo - Neste livro Dan apresenta ao leitor...");
 		detail2.setInventoryId("12345");
 		repository.save(detail2);
 		
@@ -31,7 +31,7 @@ public class Main {
 		detail3.setProductId("CCC");
 		detail3.setProductName("O livro de Dan sobre escrita");
 		detail3.setShortDescription("Um livro sobre escrever livros");
-		detail3.setLongDescription("Neste livro Dan apresenta ao leitor...");
+		detail3.setLongDescription("Terceiro - Neste livro Dan apresenta ao leitor...");
 		detail3.setInventoryId("12345");
 		repository.save(detail3);
 
@@ -39,7 +39,7 @@ public class Main {
 		detail4.setProductId("DDD");
 		detail4.setProductName("O livro de Dan sobre escrita");
 		detail4.setShortDescription("Um livro sobre escrever livros");
-		detail4.setLongDescription("Neste livro Dan apresenta ao leitor...");
+		detail4.setLongDescription("Quarto - Neste livro Dan apresenta ao leitor...");
 		detail4.setInventoryId("12345");
 		repository.save(detail4);
 		
